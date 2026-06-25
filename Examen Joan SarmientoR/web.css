@@ -1,0 +1,45 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e98437;
+}
+
+
+
+/* Sección Más Vendidos */
+#productos .card {
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+#productos .card:hover {
+  transform: scale(1.03);
+}
+
+#productos .card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* distribución horizontal */
+#productos .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Comentarios */
+#comentarios .card {
+  background-color: #e6e3e3;
+  border-left: 5px solid #ffc107;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #308ae4;
+  color: white;
+  padding: 20px;
+}
+
